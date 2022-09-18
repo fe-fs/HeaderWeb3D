@@ -24,7 +24,7 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 20px 0;
+    padding: 10px 0;
     position: relative;
     z-index: 100; /*pra deixar a nav na frente da img*/
 }
@@ -32,7 +32,7 @@ nav{
 nav ul li{
     display: inline-block;
     list-style: none;
-    margin: 10px 30px;
+    margin: 10px 20px;
 }
 
 nav ul li a{
@@ -41,7 +41,7 @@ nav ul li a{
 }
 .text-box{
     margin-top: 130px;
-    max-width: 600px;
+    max-width: 550px;
 }
 .text-box h1{
     font-size: 45px;
@@ -62,15 +62,15 @@ nav ul li a{
 
 
 model-viewer{
-    width: 500px;
-    height: 1000px;
+    width: 450px;
+    height: 700px;
     padding: 15% 0% 0% 0%;
     border-radius: 0 0 10% 10%;
     border: 5px solid #3f51b5;
     background: #d9e0ff;
     position: absolute;
     top:-10%;
-    right: 10%;
+    right: 7.5%;
     z-index: 1;
     
 }
